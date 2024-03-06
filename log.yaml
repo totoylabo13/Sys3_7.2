@@ -1,0 +1,31 @@
+---
+- hosts: all
+  become: true
+  vars:
+    ansible_pkg_mgr: apt
+  pre_tasks:
+
+  - name: Ensure dpkg is configured
+    raw: sudo dpkg --configure -a
+    ignore_errors: yes
+    changed_when: false
+
+  tasks:
+  - name: install updates
+    apt:
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 86400
+
+- hosts: ubuntu
+  become: true
+  tasks:
+
+  - name: fetch logs from control node
+    fetch:
+      src: "/var/log/{{ item }}"
+      dest: "logs/"
+      flat: yes
+    with_items:
+      - syslog
+      - auth.log

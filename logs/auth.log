@@ -1,0 +1,215 @@
+Mar  6 17:59:36 Workstation systemd-logind[425]: New seat seat0.
+Mar  6 17:59:36 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 17:59:36 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 17:59:36 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 17:59:36 Workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 17:59:37 Workstation systemd-logind[425]: New session c1 of user gdm.
+Mar  6 17:59:37 Workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 17:59:37 Workstation gnome-keyring-daemon[765]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Mar  6 17:59:40 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 17:59:47 Workstation gdm-password]: pam_unix(gdm-password:session): session opened for user zamora by (uid=0)
+Mar  6 17:59:47 Workstation systemd: pam_unix(systemd-user:session): session opened for user zamora by (uid=0)
+Mar  6 17:59:47 Workstation systemd-logind[425]: New session 2 of user zamora.
+Mar  6 17:59:48 Workstation gnome-keyring-daemon[1237]: The Secret Service was already initialized
+Mar  6 17:59:50 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 17:59:50 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 17:59:50 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 17:59:50 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 18:00:03 Workstation dbus-daemon[440]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 18:01:03 Workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 18:01:03 Workstation pkexec[3173]: zamora: Executing command [USER=root] [TTY=unknown] [CWD=/home/zamora] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 18:01:15 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 18:01:15 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:01:54 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:01:57 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 18:01:57 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:02:05 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:02:16 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 18:02:16 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:03:53 Workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 18:03:53 Workstation pkexec[5730]: zamora: Executing command [USER=root] [TTY=unknown] [CWD=/home/zamora] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 18:07:48 Workstation gnome-keyring-daemon[1237]: couldn't initialize slot with master password: The password or PIN is incorrect
+Mar  6 18:07:48 Workstation gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 18:10:49 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:10:49 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:10:49 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:10:49 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:11:02 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 18:11:02 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 18:11:02 Workstation systemd-logind[425]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 18:11:52 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:12:02 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install
+Mar  6 18:12:02 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:12:03 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:12:12 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 18:12:12 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:12:16 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:12:54 Workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 18:12:54 Workstation pkexec[13467]: zamora: Executing command [USER=root] [TTY=unknown] [CWD=/home/zamora] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 18:13:06 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  6 18:13:06 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:13:13 Workstation useradd[13704]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar  6 18:13:13 Workstation usermod[13710]: change user 'sshd' password
+Mar  6 18:13:13 Workstation chage[13715]: changed password expiry for sshd
+Mar  6 18:13:14 Workstation sshd[13802]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:13:14 Workstation sshd[13802]: Server listening on :: port 22.
+Mar  6 18:13:19 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:13:35 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  6 18:13:35 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:13:35 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:13:56 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  6 18:13:56 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:13:57 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:14:05 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  6 18:14:05 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:14:05 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:14:19 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  6 18:14:19 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:14:24 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:14:31 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install python-3
+Mar  6 18:14:31 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:14:31 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:15:13 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 18:15:13 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:15:14 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:15:19 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/apt install git
+Mar  6 18:15:19 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:15:34 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:15:53 Workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar  6 18:15:53 Workstation pkexec[17299]: zamora: Executing command [USER=root] [TTY=unknown] [CWD=/home/zamora] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  6 18:16:13 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/nano ansible.cfg
+Mar  6 18:16:13 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+                                                                                       Mar  6 18:19:00 Workstation systemd-logind[581]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 18:19:00 Workstation systemd-logind[581]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 18:19:00 Workstation systemd-logind[581]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 18:19:00 Workstation systemd-logind[581]: New seat seat0.
+Mar  6 18:19:00 Workstation sshd[656]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:00 Workstation sshd[656]: Server listening on :: port 22.
+Mar  6 18:19:01 Workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 18:19:01 Workstation systemd-logind[581]: New session c1 of user gdm.
+Mar  6 18:19:01 Workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 18:19:02 Workstation sshd[656]: Received SIGHUP; restarting.
+Mar  6 18:19:02 Workstation sshd[656]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:02 Workstation sshd[656]: Server listening on :: port 22.
+Mar  6 18:19:05 Workstation sshd[656]: Received SIGHUP; restarting.
+Mar  6 18:19:05 Workstation sshd[656]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:05 Workstation sshd[656]: Server listening on :: port 22.
+Mar  6 18:19:05 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:19:07 Workstation sshd[656]: Received SIGHUP; restarting.
+Mar  6 18:19:07 Workstation sshd[656]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:07 Workstation sshd[656]: Server listening on :: port 22.
+Mar  6 18:19:12 Workstation sshd[656]: Received SIGHUP; restarting.
+Mar  6 18:19:12 Workstation sshd[656]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:12 Workstation sshd[656]: Server listening on :: port 22.
+Mar  6 18:19:15 Workstation gdm-password]: pam_unix(gdm-password:session): session opened for user zamora by (uid=0)
+Mar  6 18:19:15 Workstation systemd: pam_unix(systemd-user:session): session opened for user zamora by (uid=0)
+Mar  6 18:19:15 Workstation systemd-logind[581]: New session 2 of user zamora.
+Mar  6 18:19:18 Workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:19:28 Workstation dbus-daemon[532]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 18:19:40 Workstation sudo:   zamora : TTY=pts/0 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  6 18:19:40 Workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 18:19:48 Workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:19:50 Workstation systemd-logind[581]: System is rebooting.
+Mar  6 18:19:50 Workstation sshd[656]: Received signal 15; terminating.
+Mar  6 18:19:58 Server1 systemd-logind[530]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 18:19:58 Server1 systemd-logind[530]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 18:19:58 Server1 systemd-logind[530]: New seat seat0.
+Mar  6 18:19:58 Server1 sshd[625]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:19:58 Server1 sshd[625]: Server listening on :: port 22.
+Mar  6 18:19:58 Server1 systemd-logind[530]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 18:19:58 Server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 18:19:58 Server1 systemd-logind[530]: New session c1 of user gdm.
+Mar  6 18:19:58 Server1 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 18:20:00 Server1 sshd[625]: Received SIGHUP; restarting.
+Mar  6 18:20:00 Server1 sshd[625]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:20:00 Server1 sshd[625]: Server listening on :: port 22.
+Mar  6 18:20:01 Server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:20:01 Server1 sshd[625]: Received SIGHUP; restarting.
+Mar  6 18:20:01 Server1 sshd[625]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:20:01 Server1 sshd[625]: Server listening on :: port 22.
+Mar  6 18:20:03 Server1 sshd[625]: Received SIGHUP; restarting.
+Mar  6 18:20:03 Server1 sshd[625]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:20:03 Server1 sshd[625]: Server listening on :: port 22.
+Mar  6 18:20:05 Server1 sshd[625]: Received SIGHUP; restarting.
+Mar  6 18:20:05 Server1 sshd[625]: Server listening on 0.0.0.0 port 22.
+Mar  6 18:20:05 Server1 sshd[625]: Server listening on :: port 22.
+Mar  6 18:20:25 Server1 dbus-daemon[534]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 18:20:51 Server1 gdm-password]: pam_unix(gdm-password:session): session opened for user zamora by (uid=0)
+Mar  6 18:20:51 Server1 systemd: pam_unix(systemd-user:session): session opened for user zamora by (uid=0)
+Mar  6 18:20:51 Server1 systemd-logind[530]: New session 2 of user zamora.
+Mar  6 18:20:52 Server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  6 18:21:17 Server1 dbus-daemon[534]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 18:22:27 Server1 sshd[1848]: Accepted password for zamora from 192.168.56.103 port 45098 ssh2
+Mar  6 18:22:27 Server1 sshd[1848]: pam_unix(sshd:session): session opened for user zamora by (uid=0)
+Mar  6 18:22:27 Server1 systemd-logind[530]: New session 4 of user zamora.
+Mar  6 18:22:29 Server1 sshd[1917]: Received disconnect from 192.168.56.103 port 45098:11: disconnected by user
+Mar  6 18:22:29 Server1 sshd[1917]: Disconnected from user zamora 192.168.56.103 port 45098
+Mar  6 18:22:29 Server1 sshd[1848]: pam_unix(sshd:session): session closed for user zamora
+Mar  6 18:22:29 Server1 systemd-logind[530]: Removed session 4.
+Mar  6 18:22:56 Server1 sshd[1935]: Connection closed by authenticating user zamora 192.168.56.103 port 60750 [preauth]
+Mar  6 18:22:56 Server1 sshd[1937]: Connection closed by authenticating user zamora 192.168.56.103 port 60752 [preauth]
+Mar  6 18:22:59 Server1 sshd[1939]: Accepted password for zamora from 192.168.56.103 port 60754 ssh2
+Mar  6 18:22:59 Server1 sshd[1939]: pam_unix(sshd:session): session opened for user zamora by (uid=0)
+Mar  6 18:22:59 Server1 systemd-logind[530]: New session 5 of user zamora.
+Mar  6 18:22:59 Server1 sshd[1984]: Received disconnect from 192.168.56.103 port 60754:11: disconnected by user
+Mar  6 18:22:59 Server1 sshd[1984]: Disconnected from user zamora 192.168.56.103 port 60754
+Mar  6 18:22:59 Server1 sshd[1939]: pam_unix(sshd:session): session closed for user zamora
+Mar  6 18:22:59 Server1 systemd-logind[530]: Removed session 5.
+Mar  6 18:27:04 Server1 sshd[2005]: Accepted publickey for zamora from 192.168.56.103 port 58310 ssh2: RSA SHA256:byiRrMt66zhmZQGFbQErcCcUoo2hhAzyICsBJvXbT68
+Mar  6 18:27:04 Server1 sshd[2005]: pam_unix(sshd:session): session opened for user zamora by (uid=0)
+Mar  6 18:27:04 Server1 systemd-logind[530]: New session 6 of user zamora.
+Mar  6 18:28:04 Server1 sshd[2050]: Received disconnect from 192.168.56.103 port 58310:11: disconnected by user
+Mar  6 18:28:04 Server1 sshd[2050]: Disconnected from user zamora 192.168.56.103 port 58310
+Mar  6 18:28:04 Server1 sshd[2005]: pam_unix(sshd:session): session closed for user zamora
+Mar  6 18:28:04 Server1 systemd-logind[530]: Removed session 6.
+Mar  6 18:29:49 Server1 sshd[2080]: Accepted publickey for zamora from 192.168.56.103 port 41148 ssh2: RSA SHA256:byiRrMt66zhmZQGFbQErcCcUoo2hhAzyICsBJvXbT68
+Mar  6 18:29:49 Server1 sshd[2080]: pam_unix(sshd:session): session opened for user zamora by (uid=0)
+Mar  6 18:29:49 Server1 systemd-logind[530]: New session 7 of user zamora.
+Mar  6 18:29:49 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jxhxizhmbdgqljrwyaclwhmpqhhfscdo; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709720989.27-205815213341338/setup.py
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:29:49 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-luokyzraznhmfzgndpiwgigbylmvrbyd; sudo dpkg --configure -a
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:29:49 Server1 sudo:     root : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:29:49 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:29:50 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-swvalbsrasocbnmavwcisvabmpygtifh; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709720990.12-263081817620266/apt.py
+Mar  6 18:29:50 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:30:03 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:30:03 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rkboxjlcjrxhogqggupgwoqnlseikypf; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709721003.72-5740132621389/setup.py
+Mar  6 18:30:03 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:30:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:30:04 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ikogrecmaroqovxprfjngsozlbmnslsp; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709721004.42-259986059598441/slurp.py
+Mar  6 18:30:04 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:30:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:30:04 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ighrwmpnlofbcfbwauytojdhrpwngdek; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709721004.78-204610234990716/slurp.py
+Mar  6 18:30:04 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 18:30:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 18:31:05 Server1 sshd[2125]: Received disconnect from 192.168.56.103 port 41148:11: disconnected by user
+Mar  6 18:31:05 Server1 sshd[2125]: Disconnected from user zamora 192.168.56.103 port 41148
+Mar  6 18:31:05 Server1 sshd[2080]: pam_unix(sshd:session): session closed for user zamora
+Mar  6 18:31:05 Server1 systemd-logind[530]: Removed session 7.
+Mar  6 19:00:02 Server1 sshd[2932]: Accepted publickey for zamora from 192.168.56.103 port 53966 ssh2: RSA SHA256:byiRrMt66zhmZQGFbQErcCcUoo2hhAzyICsBJvXbT68
+Mar  6 19:00:02 Server1 sshd[2932]: pam_unix(sshd:session): session opened for user zamora by (uid=0)
+Mar  6 19:00:02 Server1 systemd-logind[530]: New session 8 of user zamora.
+Mar  6 19:00:02 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mqghmecimlmkwvekejhnxqtyabfqlvka; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709722802.36-224909074946196/setup.py
+Mar  6 19:00:02 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:02 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:03 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tvubrqcyujlhvyznzwpwqgtemxpcdetq; sudo dpkg --configure -a
+Mar  6 19:00:03 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:03 Server1 sudo:     root : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  6 19:00:03 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:03 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:03 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:03 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jnuszrtlbfhoxymqnbstlwznvsjvxfom; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709722803.32-109629422977883/apt.py
+Mar  6 19:00:03 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:05 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:05 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rcsgvdbpdbinaenwblfabksmjebjluhd; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709722805.27-27092016619124/setup.py
+Mar  6 19:00:05 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:05 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:05 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hxymkbshctwwpsfjjykiycmnposjyifh; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709722805.75-232727254801821/slurp.py
+Mar  6 19:00:05 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
+Mar  6 19:00:05 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 19:00:06 Server1 sudo:   zamora : TTY=pts/1 ; PWD=/home/zamora ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oikyublyftujllwsbntrqjyinzuhexsq; /usr/bin/python /home/zamora/.ansible/tmp/ansible-tmp-1709722806.01-221929532458697/slurp.py
+Mar  6 19:00:06 Server1 sudo: pam_unix(sudo:session): session opened for user root by zamora(uid=0)
